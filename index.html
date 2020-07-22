@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- link section starts  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Weather App</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap" rel="stylesheet">
+    
+    <!-- link section ends  -->
+</head>
+<body >
+
+   <div class="container">
+
+<!-- Weather-Forecast-Sections Starts  -->
+
+<main class="weather-section">
+
+    <h3>Enter your City and Check your weather instantly:</h3>
+    <input type="text" id="city-input" placeholder="Enter Your city Name" class="form-control">
+    <small class="form-text text-muted"> After Entering the valid city Name Please Enter to get Result </small>
+    <h2>Weather ForeCast</h2>
+     <div class="d-flex justify-content-between forecast-section">
+  
+        <p class="lead">
+          <strong><span id="city">Dhaka</span>,<span id="country">BD</span></strong><br>
+          <strong><span id="main">Cloud</span></strong>
+          (<span id="description">Scattred Cloud</span>)<br>
+          TEMP: <strong id="temp">32</strong><br>
+          PRESSURE:<strong id="pressure">1032</strong><br>
+          HUMIDITY:<strong><span id="humidity">75</span></strong><br>
+        </p>
+        <img src="./images/698392-icon-129-cloud-download-512.webp" alt="Scattered Cloud" id="condition">
+
+     </div>
+ 
+
+
+     
+</main>
+  </div>
+
+   <!-- Initial Resources starts  -->
+
+   <script src="./js/jquery-3.4.1.slim.min.js"></script>
+   <script src="./js/popper.min.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/app.js"></script>
+   <script src="https://unpkg.com/axios@0.19.2/dist/axios.min.js"></script>
+
+   <!-- Initial Resources ends -->
+
+</body>
+</html>

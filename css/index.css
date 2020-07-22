@@ -1,0 +1,26 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    color:black;
+    text-align:center;
+    margin-top:20px;
+    font-family: 'Itim', cursive;
+    font-family: 'Lobster', cursive;
+}
+img {
+    width:200px;
+    height:200px;
+}
+.container {
+    height:50%;
+    width:50%;
+}
+
+.weather-section {
+    padding:30px;
+}
+.forecast-section {
+    color:rgb(1, 29, 32);
+}
